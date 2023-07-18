@@ -56,15 +56,11 @@ header{
 }
 
 .banner-container h3{
-/* font-size: 4rem;
-font-weight: 700;
-margin-bottom: 1rem;
-color: #131313;
-padding: 10px; */
+
 color: var(--dark-01, #131313);
 text-align: center;
 font-family: Work Sans;
-font-size: 64px;
+font-size: 4rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -121,5 +117,11 @@ font-weight: 400;
     }
     header{
         padding: 10px;
+    }
+    .banner-container{
+        max-width: 85%;
+    }
+    .banner-container h3{
+        font-size: 3.3rem;
     }
 }
